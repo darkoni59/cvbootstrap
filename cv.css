@@ -1,9 +1,8 @@
 body {
     font-family: Roboto;
-    background-color: #1abc9c;
-
+    background-image: linear-gradient(to right top, #424644, #434d4b, #425553, #415c5e, #40636b, #39727e, #2b8291, #0092a5, #00b0b5, #00ccb1, #00e799, #14ff6f);
     line-height: 1.8;
-    color: #1abc9c;
+
 }
 p {font-size: 16px;
     color: white;
@@ -12,20 +11,23 @@ p {font-size: 16px;
 
 .margin {margin-bottom: 45px;}
 .bg-1 {
-    background-color: #138496;
+border: solid black;
     color: #ffffff;
 }
 .bg-2 {
-    background-color: #20c997;
+    border: solid black;
     color: #ffffff;
+
 }
 .bg-3 {
-    background-color: #ffffff;
-    color: #20c997;
+    border: solid black;
+
+
 }
 .bg-4 {
-    background-color: #20c997;
+    border: solid black;
     color: #fff;
+
 }
 .container-fluid {
     padding-top: 70px;
@@ -48,15 +50,13 @@ p {font-size: 16px;
 }
 #exalty{
 
-    background-color: #20c997;
-
+  background-color: black;
 }
 
 a{
     color: #000000;
 }
 #container3{
-    background-color: #138496;
 }
 .carousel-inner{
     position: center;
@@ -78,11 +78,26 @@ h3{
 
 }
 #myNavbar{
-    background-color: #1abc9c;
     color: white;
 }
 h2{
     color: white;
 
+
+}
+#photo{
+    border: solid black;
+
+
+}
+#projet{
+    position: relative;
+    display: flex;
+
+
+}
+.item{
+    position: center;
+    align-content: center;
 
 }
